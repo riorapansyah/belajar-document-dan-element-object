@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+         .hijau { color: green; }
+        </style>
+ </head>
+ <body>
+ <h1 class="hijau">Belajar JavaScript</h1>
+ <p>Sedang belajar <em>JavaScript</em>
+ <b class="hijau"> dari Duniailkom</b></p>
+ <script>
+ let classNode = document.getElementsByClassName("hijau");
+
+ console.log(classNode); 
+
+ console.log(classNode[0].nodeName); 
+ console.log(classNode[0].nodeType); 
+ console.log(classNode[0].childNodes); 
+ console.log(classNode[0].textContent); 
+
+ console.log(classNode[1].nodeName); 
+ console.log(classNode[1].nodeType); 
+ console.log(classNode[1].childNodes); 
+ console.log(classNode[1].textContent);
+ </script>
+</body>
+</html>
