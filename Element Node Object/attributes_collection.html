@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+         <h1 id="judul" title="Sedang Belajar">Belajar JavaScript</h1>
+         <script>
+         let judulNode = document.getElementById("judul");
+         let nodeAttribute = judulNode.attributes;
+        
+         console.log(nodeAttribute.length); 
+        
+         console.log(nodeAttribute[0]); 
+         console.log(nodeAttribute[1]); 
+        
+         console.log(nodeAttribute.id); 
+         console.log(nodeAttribute.title);
+        
+         console.log(nodeAttribute.title.nodeType); 
+         </script>
+        
+</body>
+</html>
